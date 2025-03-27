@@ -2,6 +2,11 @@
 
 A full-stack application that allows users to manage their book collection with authentication and CRUD operations.
 
+<img width="1512" alt="Screenshot 2025-03-27 at 2 45 15 PM" src="https://github.com/user-attachments/assets/0cff0b6b-ddc1-477a-8fcc-fc1101e4d5b1" />
+<img width="1512" alt="Screenshot 2025-03-27 at 2 45 23 PM" src="https://github.com/user-attachments/assets/c2016a4f-56bc-4f29-b2db-762bd0d90209" />
+
+
+
 ## Features
 
 - User authentication (register/login)
