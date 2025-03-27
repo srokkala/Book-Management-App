@@ -1,0 +1,29 @@
+{
+    "name": "book-management-app",
+    "version": "1.0.0",
+    "description": "Book Management Application",
+    "main": "server/index.js",
+    "scripts": {
+      "start": "node server/index.js",
+      "server": "nodemon server/index.js",
+      "client": "npm start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\"",
+      "install-all": "npm install && cd client && npm install",
+      "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.13.7",
+      "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+      "concurrently": "^6.2.1",
+      "nodemon": "^2.0.12"
+    }
+  }
